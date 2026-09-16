@@ -40,3 +40,9 @@ class RationalNumber:
         return "%s/%s" % (self.n, self.d)
 
     __repr__ = __str__
+
+    
+print(RationalNumber(1,2) + RationalNumber(1,2))
+print(RationalNumber(1,2) - RationalNumber(1,2))
+print(RationalNumber(1,2) * RationalNumber(1,2))
+print(RationalNumber(1,2) / RationalNumber(1,2))
