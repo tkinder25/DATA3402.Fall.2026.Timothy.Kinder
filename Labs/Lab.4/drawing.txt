@@ -1,0 +1,4 @@
+RasterDrawing()
+Raster.add_shape(rectangle((2, 2),2,2), 'shape_0')
+Raster.add_shape(circle((15, 4),3), 'shape_1')
+Raster.add_shape(triangle((5, 5),2,2), 'shape_2')
